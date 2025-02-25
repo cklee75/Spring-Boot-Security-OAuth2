@@ -1,0 +1,3437 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "WebInspector",
+      "version": "537.36"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2025-02-25T02:30:38.520Z",
+        "id": "page_2",
+        "title": "https://app.please-open.it/auth/realms/ee1afd72-71a9-49ad-a975-54ed46cc56a3/login-actions/authenticate?session_code=4uEw5m_dJU4xS_gdduqKXBOJtq-vtu_OsQTVCvRHhFQ&execution=43c69ee3-c84b-4de1-9f0a-f4087d4b39ba&client_id=confidential-client&tab_id=z30_Haz7kbE",
+        "pageTimings": {
+          "onContentLoad": 2384.351999964565,
+          "onLoad": 2385.2419999893755
+        }
+      },
+      {
+        "startedDateTime": "2025-02-25T02:29:18.434Z",
+        "id": "page_1",
+        "title": "http://localhost:8082/api/employees",
+        "pageTimings": {
+          "onContentLoad": 2011.2979999976233,
+          "onLoad": 2800.64599995967
+        }
+      }
+    ],
+    "entries": [
+      {
+        "_connectionId": "366640",
+        "_initiator": {
+          "type": "other"
+        },
+        "_priority": "VeryHigh",
+        "_resourceType": "document",
+        "cache": {},
+        "connection": "443",
+        "pageref": "page_2",
+        "request": {
+          "method": "POST",
+          "url": "https://app.please-open.it/auth/realms/ee1afd72-71a9-49ad-a975-54ed46cc56a3/login-actions/authenticate?session_code=4uEw5m_dJU4xS_gdduqKXBOJtq-vtu_OsQTVCvRHhFQ&execution=43c69ee3-c84b-4de1-9f0a-f4087d4b39ba&client_id=confidential-client&tab_id=z30_Haz7kbE",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Accept",
+              "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-GB,en;q=0.9"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Length",
+              "value": "53"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/x-www-form-urlencoded"
+            },
+            {
+              "name": "Host",
+              "value": "app.please-open.it"
+            },
+            {
+              "name": "Origin",
+              "value": "null"
+            },
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Sec-Fetch-Dest",
+              "value": "document"
+            },
+            {
+              "name": "Sec-Fetch-Mode",
+              "value": "navigate"
+            },
+            {
+              "name": "Sec-Fetch-Site",
+              "value": "same-origin"
+            },
+            {
+              "name": "Sec-Fetch-User",
+              "value": "?1"
+            },
+            {
+              "name": "Upgrade-Insecure-Requests",
+              "value": "1"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Not(A:Brand\";v=\"99\", \"Google Chrome\";v=\"133\", \"Chromium\";v=\"133\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            },
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"macOS\""
+            }
+          ],
+          "queryString": [
+            {
+              "name": "session_code",
+              "value": "4uEw5m_dJU4xS_gdduqKXBOJtq-vtu_OsQTVCvRHhFQ"
+            },
+            {
+              "name": "execution",
+              "value": "43c69ee3-c84b-4de1-9f0a-f4087d4b39ba"
+            },
+            {
+              "name": "client_id",
+              "value": "confidential-client"
+            },
+            {
+              "name": "tab_id",
+              "value": "z30_Haz7kbE"
+            }
+          ],
+          "cookies": [],
+          "headersSize": 1994,
+          "bodySize": 53,
+          "postData": {
+            "mimeType": "application/x-www-form-urlencoded",
+            "text": "username=prokpi001&password=Mimos%23123&credentialId=",
+            "params": [
+              {
+                "name": "username",
+                "value": "prokpi001"
+              },
+              {
+                "name": "password",
+                "value": "Mimos%23123"
+              },
+              {
+                "name": "credentialId",
+                "value": ""
+              }
+            ]
+          }
+        },
+        "response": {
+          "status": 302,
+          "statusText": "Found",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Access-Control-Allow-Headers",
+              "value": "DNT,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range"
+            },
+            {
+              "name": "Access-Control-Allow-Methods",
+              "value": "GET, POST, OPTIONS"
+            },
+            {
+              "name": "Access-Control-Expose-Headers",
+              "value": "Content-Length,Content-Range"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-store, must-revalidate, max-age=0"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Length",
+              "value": "0"
+            },
+            {
+              "name": "Content-Security-Policy",
+              "value": "frame-src 'self'; frame-ancestors 'self'; object-src 'none';"
+            },
+            {
+              "name": "Date",
+              "value": "Tue, 25 Feb 2025 02:30:39 GMT"
+            },
+            {
+              "name": "Location",
+              "value": "http://localhost:8082/login/oauth2/code/keycloak?state=jKkOK821pRF7nd0JQgeYy5dplAsmyYqZxEqR5zDN8RY%3D&session_state=d72b58d1-a46c-4027-a393-17a6e597c6eb&iss=https%3A%2F%2Fapp.please-open.it%2Fauth%2Frealms%2Fee1afd72-71a9-49ad-a975-54ed46cc56a3&code=26fde92f-fd6d-422d-8169-7ea88f68393d.d72b58d1-a46c-4027-a393-17a6e597c6eb.8c60a387-6758-474b-9120-bcb4a57d2e50"
+            },
+            {
+              "name": "Referrer-Policy",
+              "value": "no-referrer"
+            },
+            {
+              "name": "Server",
+              "value": "nginx/1.18.0 (Ubuntu)"
+            },
+            {
+              "name": "Strict-Transport-Security",
+              "value": "max-age=31536000; includeSubDomains"
+            },
+            {
+              "name": "X-Content-Type-Options",
+              "value": "nosniff"
+            },
+            {
+              "name": "X-Frame-Options",
+              "value": "SAMEORIGIN"
+            },
+            {
+              "name": "X-Robots-Tag",
+              "value": "none"
+            },
+            {
+              "name": "X-XSS-Protection",
+              "value": "1; mode=block"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 0,
+            "mimeType": "x-unknown",
+            "compression": 0
+          },
+          "redirectURL": "http://localhost:8082/login/oauth2/code/keycloak?state=jKkOK821pRF7nd0JQgeYy5dplAsmyYqZxEqR5zDN8RY%3D&session_state=d72b58d1-a46c-4027-a393-17a6e597c6eb&iss=https%3A%2F%2Fapp.please-open.it%2Fauth%2Frealms%2Fee1afd72-71a9-49ad-a975-54ed46cc56a3&code=26fde92f-fd6d-422d-8169-7ea88f68393d.d72b58d1-a46c-4027-a393-17a6e597c6eb.8c60a387-6758-474b-9120-bcb4a57d2e50",
+          "headersSize": 3338,
+          "bodySize": 0,
+          "_transferSize": 3338,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "37.187.150.207",
+        "startedDateTime": "2025-02-25T02:30:38.517Z",
+        "time": 1098.2410000717714,
+        "timings": {
+          "blocked": 3.429000044211745,
+          "dns": 0.0020000000000000018,
+          "ssl": 238.147,
+          "connect": 488.16999999999996,
+          "send": 0.4390000000000214,
+          "wait": 601.7060000265167,
+          "receive": 4.495000001043081,
+          "_blocked_queueing": 3.2470000442117453,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        }
+      },
+      {
+        "_connectionId": "366674",
+        "_initiator": {
+          "type": "other"
+        },
+        "_priority": "VeryHigh",
+        "_resourceType": "document",
+        "cache": {},
+        "connection": "8082",
+        "pageref": "page_2",
+        "request": {
+          "method": "GET",
+          "url": "http://localhost:8082/login/oauth2/code/keycloak?state=jKkOK821pRF7nd0JQgeYy5dplAsmyYqZxEqR5zDN8RY%3D&session_state=d72b58d1-a46c-4027-a393-17a6e597c6eb&iss=https%3A%2F%2Fapp.please-open.it%2Fauth%2Frealms%2Fee1afd72-71a9-49ad-a975-54ed46cc56a3&code=26fde92f-fd6d-422d-8169-7ea88f68393d.d72b58d1-a46c-4027-a393-17a6e597c6eb.8c60a387-6758-474b-9120-bcb4a57d2e50",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Accept",
+              "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-GB,en;q=0.9"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Host",
+              "value": "localhost:8082"
+            },
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Sec-Fetch-Dest",
+              "value": "document"
+            },
+            {
+              "name": "Sec-Fetch-Mode",
+              "value": "navigate"
+            },
+            {
+              "name": "Sec-Fetch-Site",
+              "value": "cross-site"
+            },
+            {
+              "name": "Sec-Fetch-User",
+              "value": "?1"
+            },
+            {
+              "name": "Upgrade-Insecure-Requests",
+              "value": "1"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Not(A:Brand\";v=\"99\", \"Google Chrome\";v=\"133\", \"Chromium\";v=\"133\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            },
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"macOS\""
+            }
+          ],
+          "queryString": [
+            {
+              "name": "state",
+              "value": "jKkOK821pRF7nd0JQgeYy5dplAsmyYqZxEqR5zDN8RY%3D"
+            },
+            {
+              "name": "session_state",
+              "value": "d72b58d1-a46c-4027-a393-17a6e597c6eb"
+            },
+            {
+              "name": "iss",
+              "value": "https%3A%2F%2Fapp.please-open.it%2Fauth%2Frealms%2Fee1afd72-71a9-49ad-a975-54ed46cc56a3"
+            },
+            {
+              "name": "code",
+              "value": "26fde92f-fd6d-422d-8169-7ea88f68393d.d72b58d1-a46c-4027-a393-17a6e597c6eb.8c60a387-6758-474b-9120-bcb4a57d2e50"
+            }
+          ],
+          "cookies": [],
+          "headersSize": 1106,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 302,
+          "statusText": "",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Cache-Control",
+              "value": "no-cache, no-store, max-age=0, must-revalidate"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Length",
+              "value": "0"
+            },
+            {
+              "name": "Date",
+              "value": "Tue, 25 Feb 2025 02:30:40 GMT"
+            },
+            {
+              "name": "Expires",
+              "value": "0"
+            },
+            {
+              "name": "Keep-Alive",
+              "value": "timeout=60"
+            },
+            {
+              "name": "Location",
+              "value": "http://localhost:8082/api/employees?continue"
+            },
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "X-Content-Type-Options",
+              "value": "nosniff"
+            },
+            {
+              "name": "X-Frame-Options",
+              "value": "DENY"
+            },
+            {
+              "name": "X-XSS-Protection",
+              "value": "0"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 0,
+            "mimeType": "x-unknown",
+            "compression": -1
+          },
+          "redirectURL": "http://localhost:8082/api/employees?continue",
+          "headersSize": 421,
+          "bodySize": 1,
+          "_transferSize": 422,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "[::1]",
+        "startedDateTime": "2025-02-25T02:30:39.616Z",
+        "time": 1190.8370000005661,
+        "timings": {
+          "blocked": 4.4129999700337645,
+          "dns": 0.0040000000000000036,
+          "ssl": -1,
+          "connect": 0.343,
+          "send": 0.19499999999999995,
+          "wait": 1183.579999964267,
+          "receive": 2.302000066265464,
+          "_blocked_queueing": 4.123999970033765,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        }
+      },
+      {
+        "_connectionId": "366674",
+        "_initiator": {
+          "type": "other"
+        },
+        "_priority": "VeryHigh",
+        "_resourceType": "document",
+        "cache": {},
+        "connection": "8082",
+        "pageref": "page_2",
+        "request": {
+          "method": "GET",
+          "url": "http://localhost:8082/api/employees?continue",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Accept",
+              "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-GB,en;q=0.9"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Host",
+              "value": "localhost:8082"
+            },
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Sec-Fetch-Dest",
+              "value": "document"
+            },
+            {
+              "name": "Sec-Fetch-Mode",
+              "value": "navigate"
+            },
+            {
+              "name": "Sec-Fetch-Site",
+              "value": "cross-site"
+            },
+            {
+              "name": "Sec-Fetch-User",
+              "value": "?1"
+            },
+            {
+              "name": "Upgrade-Insecure-Requests",
+              "value": "1"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Not(A:Brand\";v=\"99\", \"Google Chrome\";v=\"133\", \"Chromium\";v=\"133\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            },
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"macOS\""
+            }
+          ],
+          "queryString": [
+            {
+              "name": "continue",
+              "value": ""
+            }
+          ],
+          "cookies": [],
+          "headersSize": 790,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Cache-Control",
+              "value": "no-cache, no-store, max-age=0, must-revalidate"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "name": "Date",
+              "value": "Tue, 25 Feb 2025 02:30:40 GMT"
+            },
+            {
+              "name": "Expires",
+              "value": "0"
+            },
+            {
+              "name": "Keep-Alive",
+              "value": "timeout=60"
+            },
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "name": "Vary",
+              "value": "Origin"
+            },
+            {
+              "name": "Vary",
+              "value": "Access-Control-Request-Method"
+            },
+            {
+              "name": "Vary",
+              "value": "Access-Control-Request-Headers"
+            },
+            {
+              "name": "X-Content-Type-Options",
+              "value": "nosniff"
+            },
+            {
+              "name": "X-Frame-Options",
+              "value": "DENY"
+            },
+            {
+              "name": "X-XSS-Protection",
+              "value": "0"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 232,
+            "mimeType": "application/json",
+            "compression": -12
+          },
+          "redirectURL": "",
+          "headersSize": 420,
+          "bodySize": 244,
+          "_transferSize": 664,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "[::1]",
+        "startedDateTime": "2025-02-25T02:30:40.808Z",
+        "time": 22.259999997913837,
+        "timings": {
+          "blocked": 0.9459999792799354,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.057999999999999996,
+          "wait": 19.212000054262578,
+          "receive": 2.0439999643713236,
+          "_blocked_queueing": 0.7769999792799354,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        }
+      },
+      {
+        "_connectionId": "365779",
+        "_initiator": {
+          "type": "other"
+        },
+        "_priority": "VeryHigh",
+        "_resourceType": "document",
+        "cache": {},
+        "connection": "8082",
+        "pageref": "page_1",
+        "request": {
+          "method": "GET",
+          "url": "http://localhost:8082/api/employees",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Accept",
+              "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-GB,en;q=0.9"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Host",
+              "value": "localhost:8082"
+            },
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Sec-Fetch-Dest",
+              "value": "document"
+            },
+            {
+              "name": "Sec-Fetch-Mode",
+              "value": "navigate"
+            },
+            {
+              "name": "Sec-Fetch-Site",
+              "value": "none"
+            },
+            {
+              "name": "Sec-Fetch-User",
+              "value": "?1"
+            },
+            {
+              "name": "Upgrade-Insecure-Requests",
+              "value": "1"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Not(A:Brand\";v=\"99\", \"Google Chrome\";v=\"133\", \"Chromium\";v=\"133\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            },
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"macOS\""
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": 722,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 302,
+          "statusText": "",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Cache-Control",
+              "value": "no-cache, no-store, max-age=0, must-revalidate"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Length",
+              "value": "0"
+            },
+            {
+              "name": "Date",
+              "value": "Tue, 25 Feb 2025 02:29:18 GMT"
+            },
+            {
+              "name": "Expires",
+              "value": "0"
+            },
+            {
+              "name": "Keep-Alive",
+              "value": "timeout=60"
+            },
+            {
+              "name": "Location",
+              "value": "http://localhost:8082/oauth2/authorization/keycloak"
+            },
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "X-Content-Type-Options",
+              "value": "nosniff"
+            },
+            {
+              "name": "X-Frame-Options",
+              "value": "DENY"
+            },
+            {
+              "name": "X-XSS-Protection",
+              "value": "0"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 0,
+            "mimeType": "x-unknown",
+            "compression": -1
+          },
+          "redirectURL": "http://localhost:8082/oauth2/authorization/keycloak",
+          "headersSize": 428,
+          "bodySize": 1,
+          "_transferSize": 429,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "[::1]",
+        "startedDateTime": "2025-02-25T02:29:18.427Z",
+        "time": 87.27699992460758,
+        "timings": {
+          "blocked": 74.08699999155849,
+          "dns": 0.0040000000000048885,
+          "ssl": -1,
+          "connect": 0.17500000000001137,
+          "send": 0.06399999999999295,
+          "wait": 10.347000042386355,
+          "receive": 2.5999998906627297,
+          "_blocked_queueing": 7.260999991558492,
+          "_blocked_proxy": 66.554,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        }
+      },
+      {
+        "_connectionId": "365779",
+        "_initiator": {
+          "type": "other"
+        },
+        "_priority": "VeryHigh",
+        "_resourceType": "document",
+        "cache": {},
+        "connection": "8082",
+        "pageref": "page_1",
+        "request": {
+          "method": "GET",
+          "url": "http://localhost:8082/oauth2/authorization/keycloak",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Accept",
+              "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-GB,en;q=0.9"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Host",
+              "value": "localhost:8082"
+            },
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Sec-Fetch-Dest",
+              "value": "document"
+            },
+            {
+              "name": "Sec-Fetch-Mode",
+              "value": "navigate"
+            },
+            {
+              "name": "Sec-Fetch-Site",
+              "value": "none"
+            },
+            {
+              "name": "Sec-Fetch-User",
+              "value": "?1"
+            },
+            {
+              "name": "Upgrade-Insecure-Requests",
+              "value": "1"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Not(A:Brand\";v=\"99\", \"Google Chrome\";v=\"133\", \"Chromium\";v=\"133\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            },
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"macOS\""
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": 791,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 302,
+          "statusText": "",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Cache-Control",
+              "value": "no-cache, no-store, max-age=0, must-revalidate"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Length",
+              "value": "0"
+            },
+            {
+              "name": "Date",
+              "value": "Tue, 25 Feb 2025 02:29:18 GMT"
+            },
+            {
+              "name": "Expires",
+              "value": "0"
+            },
+            {
+              "name": "Keep-Alive",
+              "value": "timeout=60"
+            },
+            {
+              "name": "Location",
+              "value": "https://app.please-open.it/auth/realms/ee1afd72-71a9-49ad-a975-54ed46cc56a3/protocol/openid-connect/auth?response_type=code&client_id=confidential-client&scope=openid%20profile&state=jKkOK821pRF7nd0JQgeYy5dplAsmyYqZxEqR5zDN8RY%3D&redirect_uri=http://localhost:8082/login/oauth2/code/keycloak&nonce=K-wc5H-XPGApOKQaa7UAyO7oxhg0F8lkGKw49ABm0Po"
+            },
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "X-Content-Type-Options",
+              "value": "nosniff"
+            },
+            {
+              "name": "X-Frame-Options",
+              "value": "DENY"
+            },
+            {
+              "name": "X-XSS-Protection",
+              "value": "0"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 0,
+            "mimeType": "x-unknown",
+            "compression": -1
+          },
+          "redirectURL": "https://app.please-open.it/auth/realms/ee1afd72-71a9-49ad-a975-54ed46cc56a3/protocol/openid-connect/auth?response_type=code&client_id=confidential-client&scope=openid%20profile&state=jKkOK821pRF7nd0JQgeYy5dplAsmyYqZxEqR5zDN8RY%3D&redirect_uri=http://localhost:8082/login/oauth2/code/keycloak&nonce=K-wc5H-XPGApOKQaa7UAyO7oxhg0F8lkGKw49ABm0Po",
+          "headersSize": 643,
+          "bodySize": 1,
+          "_transferSize": 644,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "[::1]",
+        "startedDateTime": "2025-02-25T02:29:18.514Z",
+        "time": 4.622000036761165,
+        "timings": {
+          "blocked": 0.6040000156238675,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.033,
+          "wait": 2.984999973639846,
+          "receive": 1.0000000474974513,
+          "_blocked_queueing": 0.4760000156238675,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        }
+      },
+      {
+        "_connectionId": "365796",
+        "_initiator": {
+          "type": "other"
+        },
+        "_priority": "VeryHigh",
+        "_resourceType": "document",
+        "cache": {},
+        "connection": "443",
+        "pageref": "page_1",
+        "request": {
+          "method": "GET",
+          "url": "https://app.please-open.it/auth/realms/ee1afd72-71a9-49ad-a975-54ed46cc56a3/protocol/openid-connect/auth?response_type=code&client_id=confidential-client&scope=openid%20profile&state=jKkOK821pRF7nd0JQgeYy5dplAsmyYqZxEqR5zDN8RY%3D&redirect_uri=http://localhost:8082/login/oauth2/code/keycloak&nonce=K-wc5H-XPGApOKQaa7UAyO7oxhg0F8lkGKw49ABm0Po",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Accept",
+              "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-GB,en;q=0.9"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Host",
+              "value": "app.please-open.it"
+            },
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Sec-Fetch-Dest",
+              "value": "document"
+            },
+            {
+              "name": "Sec-Fetch-Mode",
+              "value": "navigate"
+            },
+            {
+              "name": "Sec-Fetch-Site",
+              "value": "none"
+            },
+            {
+              "name": "Sec-Fetch-User",
+              "value": "?1"
+            },
+            {
+              "name": "Upgrade-Insecure-Requests",
+              "value": "1"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Not(A:Brand\";v=\"99\", \"Google Chrome\";v=\"133\", \"Chromium\";v=\"133\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            },
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"macOS\""
+            }
+          ],
+          "queryString": [
+            {
+              "name": "response_type",
+              "value": "code"
+            },
+            {
+              "name": "client_id",
+              "value": "confidential-client"
+            },
+            {
+              "name": "scope",
+              "value": "openid%20profile"
+            },
+            {
+              "name": "state",
+              "value": "jKkOK821pRF7nd0JQgeYy5dplAsmyYqZxEqR5zDN8RY%3D"
+            },
+            {
+              "name": "redirect_uri",
+              "value": "http://localhost:8082/login/oauth2/code/keycloak"
+            },
+            {
+              "name": "nonce",
+              "value": "K-wc5H-XPGApOKQaa7UAyO7oxhg0F8lkGKw49ABm0Po"
+            }
+          ],
+          "cookies": [],
+          "headersSize": 1027,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Access-Control-Allow-Headers",
+              "value": "DNT,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range"
+            },
+            {
+              "name": "Access-Control-Allow-Methods",
+              "value": "GET, POST, OPTIONS"
+            },
+            {
+              "name": "Access-Control-Expose-Headers",
+              "value": "Content-Length,Content-Range"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-store, must-revalidate, max-age=0"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "Content-Language",
+              "value": "en"
+            },
+            {
+              "name": "Content-Security-Policy",
+              "value": "frame-src 'self'; frame-ancestors 'self'; object-src 'none';"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/html;charset=utf-8"
+            },
+            {
+              "name": "Date",
+              "value": "Tue, 25 Feb 2025 02:29:19 GMT"
+            },
+            {
+              "name": "Referrer-Policy",
+              "value": "no-referrer"
+            },
+            {
+              "name": "Server",
+              "value": "nginx/1.18.0 (Ubuntu)"
+            },
+            {
+              "name": "Strict-Transport-Security",
+              "value": "max-age=31536000; includeSubDomains"
+            },
+            {
+              "name": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "name": "X-Content-Type-Options",
+              "value": "nosniff"
+            },
+            {
+              "name": "X-Frame-Options",
+              "value": "SAMEORIGIN"
+            },
+            {
+              "name": "X-Robots-Tag",
+              "value": "none"
+            },
+            {
+              "name": "X-XSS-Protection",
+              "value": "1; mode=block"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 4746,
+            "mimeType": "text/html",
+            "compression": 3168
+          },
+          "redirectURL": "",
+          "headersSize": 2048,
+          "bodySize": 1578,
+          "_transferSize": 3626,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "37.187.150.207",
+        "startedDateTime": "2025-02-25T02:29:18.519Z",
+        "time": 871.2810000221208,
+        "timings": {
+          "blocked": 0.646000011228025,
+          "dns": 30.753999999999998,
+          "ssl": 256.532,
+          "connect": 529.503,
+          "send": 0.2899999999999636,
+          "wait": 308.2700000211671,
+          "receive": 1.8179999897256494,
+          "_blocked_queueing": 0.506000011228025,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        }
+      },
+      {
+        "_connectionId": "365796",
+        "_initiator": {
+          "type": "parser",
+          "url": "https://app.please-open.it/auth/realms/ee1afd72-71a9-49ad-a975-54ed46cc56a3/protocol/openid-connect/auth?response_type=code&client_id=confidential-client&scope=openid%20profile&state=jKkOK821pRF7nd0JQgeYy5dplAsmyYqZxEqR5zDN8RY%3D&redirect_uri=http://localhost:8082/login/oauth2/code/keycloak&nonce=K-wc5H-XPGApOKQaa7UAyO7oxhg0F8lkGKw49ABm0Po",
+          "lineNumber": 11
+        },
+        "_priority": "VeryHigh",
+        "_resourceType": "stylesheet",
+        "cache": {},
+        "connection": "443",
+        "pageref": "page_1",
+        "request": {
+          "method": "GET",
+          "url": "https://app.please-open.it/auth/resources/kbdk5/common/keycloak/node_modules/@patternfly/patternfly/patternfly.min.css",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Accept",
+              "value": "text/css,*/*;q=0.1"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-GB,en;q=0.9"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Host",
+              "value": "app.please-open.it"
+            },
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Sec-Fetch-Dest",
+              "value": "style"
+            },
+            {
+              "name": "Sec-Fetch-Mode",
+              "value": "no-cors"
+            },
+            {
+              "name": "Sec-Fetch-Site",
+              "value": "same-origin"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Not(A:Brand\";v=\"99\", \"Google Chrome\";v=\"133\", \"Chromium\";v=\"133\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            },
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"macOS\""
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": 640,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Access-Control-Allow-Headers",
+              "value": "DNT,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range"
+            },
+            {
+              "name": "Access-Control-Allow-Methods",
+              "value": "GET, POST, OPTIONS"
+            },
+            {
+              "name": "Access-Control-Expose-Headers",
+              "value": "Content-Length,Content-Range"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=2592000"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/css"
+            },
+            {
+              "name": "Date",
+              "value": "Tue, 25 Feb 2025 02:29:19 GMT"
+            },
+            {
+              "name": "Referrer-Policy",
+              "value": "no-referrer"
+            },
+            {
+              "name": "Server",
+              "value": "nginx/1.18.0 (Ubuntu)"
+            },
+            {
+              "name": "Strict-Transport-Security",
+              "value": "max-age=31536000; includeSubDomains"
+            },
+            {
+              "name": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "name": "X-Content-Type-Options",
+              "value": "nosniff"
+            },
+            {
+              "name": "X-XSS-Protection",
+              "value": "1; mode=block"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 1421960,
+            "mimeType": "text/css",
+            "compression": 1282593
+          },
+          "redirectURL": "",
+          "headersSize": 604,
+          "bodySize": 139367,
+          "_transferSize": 139971,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "37.187.150.207",
+        "startedDateTime": "2025-02-25T02:29:19.428Z",
+        "time": 1009.4769999850541,
+        "timings": {
+          "blocked": 9.29899998010695,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.11600000000000002,
+          "wait": 486.45399999655785,
+          "receive": 513.6080000083894,
+          "_blocked_queueing": 9.13999998010695,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        }
+      },
+      {
+        "_connectionId": "365847",
+        "_initiator": {
+          "type": "parser",
+          "url": "https://app.please-open.it/auth/realms/ee1afd72-71a9-49ad-a975-54ed46cc56a3/protocol/openid-connect/auth?response_type=code&client_id=confidential-client&scope=openid%20profile&state=jKkOK821pRF7nd0JQgeYy5dplAsmyYqZxEqR5zDN8RY%3D&redirect_uri=http://localhost:8082/login/oauth2/code/keycloak&nonce=K-wc5H-XPGApOKQaa7UAyO7oxhg0F8lkGKw49ABm0Po",
+          "lineNumber": 12
+        },
+        "_priority": "VeryHigh",
+        "_resourceType": "stylesheet",
+        "cache": {},
+        "connection": "443",
+        "pageref": "page_1",
+        "request": {
+          "method": "GET",
+          "url": "https://app.please-open.it/auth/resources/kbdk5/common/keycloak/node_modules/patternfly/dist/css/patternfly.min.css",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Accept",
+              "value": "text/css,*/*;q=0.1"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-GB,en;q=0.9"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Host",
+              "value": "app.please-open.it"
+            },
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Sec-Fetch-Dest",
+              "value": "style"
+            },
+            {
+              "name": "Sec-Fetch-Mode",
+              "value": "no-cors"
+            },
+            {
+              "name": "Sec-Fetch-Site",
+              "value": "same-origin"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Not(A:Brand\";v=\"99\", \"Google Chrome\";v=\"133\", \"Chromium\";v=\"133\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            },
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"macOS\""
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": 637,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Access-Control-Allow-Headers",
+              "value": "DNT,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range"
+            },
+            {
+              "name": "Access-Control-Allow-Methods",
+              "value": "GET, POST, OPTIONS"
+            },
+            {
+              "name": "Access-Control-Expose-Headers",
+              "value": "Content-Length,Content-Range"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=2592000"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/css"
+            },
+            {
+              "name": "Date",
+              "value": "Tue, 25 Feb 2025 02:29:20 GMT"
+            },
+            {
+              "name": "Referrer-Policy",
+              "value": "no-referrer"
+            },
+            {
+              "name": "Server",
+              "value": "nginx/1.18.0 (Ubuntu)"
+            },
+            {
+              "name": "Strict-Transport-Security",
+              "value": "max-age=31536000; includeSubDomains"
+            },
+            {
+              "name": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "name": "X-Content-Type-Options",
+              "value": "nosniff"
+            },
+            {
+              "name": "X-XSS-Protection",
+              "value": "1; mode=block"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 182755,
+            "mimeType": "text/css",
+            "compression": 151062
+          },
+          "redirectURL": "",
+          "headersSize": 604,
+          "bodySize": 31693,
+          "_transferSize": 32297,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "37.187.150.207",
+        "startedDateTime": "2025-02-25T02:29:19.428Z",
+        "time": 970.4639999974966,
+        "timings": {
+          "blocked": 11.989999998323619,
+          "dns": 0.0020000000000000018,
+          "ssl": 241.54399999999998,
+          "connect": 476.531,
+          "send": 0.45999999999997954,
+          "wait": 474.73199994811415,
+          "receive": 6.749000051058829,
+          "_blocked_queueing": 10.07499999832362,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        }
+      },
+      {
+        "_connectionId": "365815",
+        "_initiator": {
+          "type": "parser",
+          "url": "https://app.please-open.it/auth/realms/ee1afd72-71a9-49ad-a975-54ed46cc56a3/protocol/openid-connect/auth?response_type=code&client_id=confidential-client&scope=openid%20profile&state=jKkOK821pRF7nd0JQgeYy5dplAsmyYqZxEqR5zDN8RY%3D&redirect_uri=http://localhost:8082/login/oauth2/code/keycloak&nonce=K-wc5H-XPGApOKQaa7UAyO7oxhg0F8lkGKw49ABm0Po",
+          "lineNumber": 13
+        },
+        "_priority": "VeryHigh",
+        "_resourceType": "stylesheet",
+        "cache": {},
+        "connection": "443",
+        "pageref": "page_1",
+        "request": {
+          "method": "GET",
+          "url": "https://app.please-open.it/auth/resources/kbdk5/common/keycloak/node_modules/patternfly/dist/css/patternfly-additions.min.css",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Accept",
+              "value": "text/css,*/*;q=0.1"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-GB,en;q=0.9"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Host",
+              "value": "app.please-open.it"
+            },
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Sec-Fetch-Dest",
+              "value": "style"
+            },
+            {
+              "name": "Sec-Fetch-Mode",
+              "value": "no-cors"
+            },
+            {
+              "name": "Sec-Fetch-Site",
+              "value": "same-origin"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Not(A:Brand\";v=\"99\", \"Google Chrome\";v=\"133\", \"Chromium\";v=\"133\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            },
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"macOS\""
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": 647,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Access-Control-Allow-Headers",
+              "value": "DNT,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range"
+            },
+            {
+              "name": "Access-Control-Allow-Methods",
+              "value": "GET, POST, OPTIONS"
+            },
+            {
+              "name": "Access-Control-Expose-Headers",
+              "value": "Content-Length,Content-Range"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=2592000"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/css"
+            },
+            {
+              "name": "Date",
+              "value": "Tue, 25 Feb 2025 02:29:20 GMT"
+            },
+            {
+              "name": "Referrer-Policy",
+              "value": "no-referrer"
+            },
+            {
+              "name": "Server",
+              "value": "nginx/1.18.0 (Ubuntu)"
+            },
+            {
+              "name": "Strict-Transport-Security",
+              "value": "max-age=31536000; includeSubDomains"
+            },
+            {
+              "name": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "name": "X-Content-Type-Options",
+              "value": "nosniff"
+            },
+            {
+              "name": "X-XSS-Protection",
+              "value": "1; mode=block"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 225030,
+            "mimeType": "text/css",
+            "compression": 194148
+          },
+          "redirectURL": "",
+          "headersSize": 604,
+          "bodySize": 30882,
+          "_transferSize": 31486,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "37.187.150.207",
+        "startedDateTime": "2025-02-25T02:29:19.428Z",
+        "time": 1003.7559999618679,
+        "timings": {
+          "blocked": 10.899999993853271,
+          "dns": 0,
+          "ssl": 248.542,
+          "connect": 489.543,
+          "send": 0.28499999999996817,
+          "wait": 501.08599996541443,
+          "receive": 1.9420000026002526,
+          "_blocked_queueing": 10.899999993853271,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        }
+      },
+      {
+        "_connectionId": "365831",
+        "_initiator": {
+          "type": "parser",
+          "url": "https://app.please-open.it/auth/realms/ee1afd72-71a9-49ad-a975-54ed46cc56a3/protocol/openid-connect/auth?response_type=code&client_id=confidential-client&scope=openid%20profile&state=jKkOK821pRF7nd0JQgeYy5dplAsmyYqZxEqR5zDN8RY%3D&redirect_uri=http://localhost:8082/login/oauth2/code/keycloak&nonce=K-wc5H-XPGApOKQaa7UAyO7oxhg0F8lkGKw49ABm0Po",
+          "lineNumber": 14
+        },
+        "_priority": "VeryHigh",
+        "_resourceType": "stylesheet",
+        "cache": {},
+        "connection": "443",
+        "pageref": "page_1",
+        "request": {
+          "method": "GET",
+          "url": "https://app.please-open.it/auth/resources/kbdk5/common/keycloak/lib/pficon/pficon.css",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Accept",
+              "value": "text/css,*/*;q=0.1"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-GB,en;q=0.9"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Host",
+              "value": "app.please-open.it"
+            },
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Sec-Fetch-Dest",
+              "value": "style"
+            },
+            {
+              "name": "Sec-Fetch-Mode",
+              "value": "no-cors"
+            },
+            {
+              "name": "Sec-Fetch-Site",
+              "value": "same-origin"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Not(A:Brand\";v=\"99\", \"Google Chrome\";v=\"133\", \"Chromium\";v=\"133\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            },
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"macOS\""
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": 607,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Access-Control-Allow-Headers",
+              "value": "DNT,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range"
+            },
+            {
+              "name": "Access-Control-Allow-Methods",
+              "value": "GET, POST, OPTIONS"
+            },
+            {
+              "name": "Access-Control-Expose-Headers",
+              "value": "Content-Length,Content-Range"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=2592000"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "Content-Length",
+              "value": "316"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/css"
+            },
+            {
+              "name": "Date",
+              "value": "Tue, 25 Feb 2025 02:29:20 GMT"
+            },
+            {
+              "name": "Referrer-Policy",
+              "value": "no-referrer"
+            },
+            {
+              "name": "Server",
+              "value": "nginx/1.18.0 (Ubuntu)"
+            },
+            {
+              "name": "Strict-Transport-Security",
+              "value": "max-age=31536000; includeSubDomains"
+            },
+            {
+              "name": "X-Content-Type-Options",
+              "value": "nosniff"
+            },
+            {
+              "name": "X-XSS-Protection",
+              "value": "1; mode=block"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 540,
+            "mimeType": "text/css",
+            "compression": 224
+          },
+          "redirectURL": "",
+          "headersSize": 597,
+          "bodySize": 316,
+          "_transferSize": 913,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "37.187.150.207",
+        "startedDateTime": "2025-02-25T02:29:19.428Z",
+        "time": 755.9400000381023,
+        "timings": {
+          "blocked": 11.484999987654389,
+          "dns": 0.0030000000000000027,
+          "ssl": 250.20100000000002,
+          "connect": 491.15900000000005,
+          "send": 0.17599999999998772,
+          "wait": 252.36400002108513,
+          "receive": 0.7530000293627381,
+          "_blocked_queueing": 11.418999987654388,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        }
+      },
+      {
+        "_connectionId": "365823",
+        "_initiator": {
+          "type": "parser",
+          "url": "https://app.please-open.it/auth/realms/ee1afd72-71a9-49ad-a975-54ed46cc56a3/protocol/openid-connect/auth?response_type=code&client_id=confidential-client&scope=openid%20profile&state=jKkOK821pRF7nd0JQgeYy5dplAsmyYqZxEqR5zDN8RY%3D&redirect_uri=http://localhost:8082/login/oauth2/code/keycloak&nonce=K-wc5H-XPGApOKQaa7UAyO7oxhg0F8lkGKw49ABm0Po",
+          "lineNumber": 15
+        },
+        "_priority": "VeryHigh",
+        "_resourceType": "stylesheet",
+        "cache": {},
+        "connection": "443",
+        "pageref": "page_1",
+        "request": {
+          "method": "GET",
+          "url": "https://app.please-open.it/auth/resources/kbdk5/login/keycloak/css/login.css",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Accept",
+              "value": "text/css,*/*;q=0.1"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-GB,en;q=0.9"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Host",
+              "value": "app.please-open.it"
+            },
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Sec-Fetch-Dest",
+              "value": "style"
+            },
+            {
+              "name": "Sec-Fetch-Mode",
+              "value": "no-cors"
+            },
+            {
+              "name": "Sec-Fetch-Site",
+              "value": "same-origin"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Not(A:Brand\";v=\"99\", \"Google Chrome\";v=\"133\", \"Chromium\";v=\"133\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            },
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"macOS\""
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": 598,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Access-Control-Allow-Headers",
+              "value": "DNT,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range"
+            },
+            {
+              "name": "Access-Control-Allow-Methods",
+              "value": "GET, POST, OPTIONS"
+            },
+            {
+              "name": "Access-Control-Expose-Headers",
+              "value": "Content-Length,Content-Range"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=2592000"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "Content-Length",
+              "value": "2821"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/css"
+            },
+            {
+              "name": "Date",
+              "value": "Tue, 25 Feb 2025 02:29:20 GMT"
+            },
+            {
+              "name": "Referrer-Policy",
+              "value": "no-referrer"
+            },
+            {
+              "name": "Server",
+              "value": "nginx/1.18.0 (Ubuntu)"
+            },
+            {
+              "name": "Strict-Transport-Security",
+              "value": "max-age=31536000; includeSubDomains"
+            },
+            {
+              "name": "X-Content-Type-Options",
+              "value": "nosniff"
+            },
+            {
+              "name": "X-XSS-Protection",
+              "value": "1; mode=block"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 10845,
+            "mimeType": "text/css",
+            "compression": 8024
+          },
+          "redirectURL": "",
+          "headersSize": 598,
+          "bodySize": 2821,
+          "_transferSize": 3419,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "37.187.150.207",
+        "startedDateTime": "2025-02-25T02:29:19.428Z",
+        "time": 761.4060000050813,
+        "timings": {
+          "blocked": 11.62899995688349,
+          "dns": 0,
+          "ssl": 254.405,
+          "connect": 497.881,
+          "send": 0.15900000000004866,
+          "wait": 251.30600002598015,
+          "receive": 0.43100002221763134,
+          "_blocked_queueing": 11.62899995688349,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        }
+      },
+      {
+        "_connectionId": "365839",
+        "_initiator": {
+          "type": "parser",
+          "url": "https://app.please-open.it/auth/realms/ee1afd72-71a9-49ad-a975-54ed46cc56a3/protocol/openid-connect/auth?response_type=code&client_id=confidential-client&scope=openid%20profile&state=jKkOK821pRF7nd0JQgeYy5dplAsmyYqZxEqR5zDN8RY%3D&redirect_uri=http://localhost:8082/login/oauth2/code/keycloak&nonce=K-wc5H-XPGApOKQaa7UAyO7oxhg0F8lkGKw49ABm0Po",
+          "lineNumber": 16
+        },
+        "_priority": "High",
+        "_resourceType": "script",
+        "cache": {},
+        "connection": "443",
+        "pageref": "page_1",
+        "request": {
+          "method": "GET",
+          "url": "https://app.please-open.it/auth/resources/kbdk5/login/keycloak/js/menu-button-links.js",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-GB,en;q=0.9"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Host",
+              "value": "app.please-open.it"
+            },
+            {
+              "name": "Origin",
+              "value": "https://app.please-open.it"
+            },
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Sec-Fetch-Dest",
+              "value": "script"
+            },
+            {
+              "name": "Sec-Fetch-Mode",
+              "value": "cors"
+            },
+            {
+              "name": "Sec-Fetch-Site",
+              "value": "same-origin"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Not(A:Brand\";v=\"99\", \"Google Chrome\";v=\"133\", \"Chromium\";v=\"133\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            },
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"macOS\""
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": 627,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Access-Control-Allow-Headers",
+              "value": "DNT,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range"
+            },
+            {
+              "name": "Access-Control-Allow-Methods",
+              "value": "GET, POST, OPTIONS"
+            },
+            {
+              "name": "Access-Control-Expose-Headers",
+              "value": "Content-Length,Content-Range"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=2592000"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "Content-Length",
+              "value": "1948"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/javascript"
+            },
+            {
+              "name": "Date",
+              "value": "Tue, 25 Feb 2025 02:29:20 GMT"
+            },
+            {
+              "name": "Referrer-Policy",
+              "value": "no-referrer"
+            },
+            {
+              "name": "Server",
+              "value": "nginx/1.18.0 (Ubuntu)"
+            },
+            {
+              "name": "Strict-Transport-Security",
+              "value": "max-age=31536000; includeSubDomains"
+            },
+            {
+              "name": "X-Content-Type-Options",
+              "value": "nosniff"
+            },
+            {
+              "name": "X-XSS-Protection",
+              "value": "1; mode=block"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 7518,
+            "mimeType": "text/javascript",
+            "compression": 5570
+          },
+          "redirectURL": "",
+          "headersSize": 605,
+          "bodySize": 1948,
+          "_transferSize": 2553,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "37.187.150.207",
+        "startedDateTime": "2025-02-25T02:29:19.428Z",
+        "time": 813.5519999777898,
+        "timings": {
+          "blocked": 11.852999916300178,
+          "dns": 0,
+          "ssl": 271.142,
+          "connect": 534.697,
+          "send": 0.4210000000000491,
+          "wait": 265.89100004617865,
+          "receive": 0.6900000153109431,
+          "_blocked_queueing": 11.852999916300178,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        }
+      },
+      {
+        "_connectionId": "365831",
+        "_initiator": {
+          "type": "parser",
+          "url": "https://app.please-open.it/auth/realms/ee1afd72-71a9-49ad-a975-54ed46cc56a3/protocol/openid-connect/auth?response_type=code&client_id=confidential-client&scope=openid%20profile&state=jKkOK821pRF7nd0JQgeYy5dplAsmyYqZxEqR5zDN8RY%3D&redirect_uri=http://localhost:8082/login/oauth2/code/keycloak&nonce=K-wc5H-XPGApOKQaa7UAyO7oxhg0F8lkGKw49ABm0Po",
+          "lineNumber": 90
+        },
+        "_priority": "High",
+        "_resourceType": "script",
+        "cache": {},
+        "connection": "443",
+        "pageref": "page_1",
+        "request": {
+          "method": "GET",
+          "url": "https://app.please-open.it/auth/resources/kbdk5/login/keycloak/js/passwordVisibility.js",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-GB,en;q=0.9"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Host",
+              "value": "app.please-open.it"
+            },
+            {
+              "name": "Origin",
+              "value": "https://app.please-open.it"
+            },
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Sec-Fetch-Dest",
+              "value": "script"
+            },
+            {
+              "name": "Sec-Fetch-Mode",
+              "value": "cors"
+            },
+            {
+              "name": "Sec-Fetch-Site",
+              "value": "same-origin"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Not(A:Brand\";v=\"99\", \"Google Chrome\";v=\"133\", \"Chromium\";v=\"133\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            },
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"macOS\""
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": 628,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Access-Control-Allow-Headers",
+              "value": "DNT,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range"
+            },
+            {
+              "name": "Access-Control-Allow-Methods",
+              "value": "GET, POST, OPTIONS"
+            },
+            {
+              "name": "Access-Control-Expose-Headers",
+              "value": "Content-Length,Content-Range"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=2592000"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "Content-Length",
+              "value": "298"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/javascript"
+            },
+            {
+              "name": "Date",
+              "value": "Tue, 25 Feb 2025 02:29:20 GMT"
+            },
+            {
+              "name": "Referrer-Policy",
+              "value": "no-referrer"
+            },
+            {
+              "name": "Server",
+              "value": "nginx/1.18.0 (Ubuntu)"
+            },
+            {
+              "name": "Strict-Transport-Security",
+              "value": "max-age=31536000; includeSubDomains"
+            },
+            {
+              "name": "X-Content-Type-Options",
+              "value": "nosniff"
+            },
+            {
+              "name": "X-XSS-Protection",
+              "value": "1; mode=block"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 698,
+            "mimeType": "text/javascript",
+            "compression": 400
+          },
+          "redirectURL": "",
+          "headersSize": 604,
+          "bodySize": 298,
+          "_transferSize": 902,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "37.187.150.207",
+        "startedDateTime": "2025-02-25T02:29:19.428Z",
+        "time": 1011.6019999841228,
+        "timings": {
+          "blocked": 756.2039999323935,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.13599999999996726,
+          "wait": 254.24399998358638,
+          "receive": 1.0180000681430101,
+          "_blocked_queueing": 12.007999932393432,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        }
+      },
+      {
+        "_connectionId": "365823",
+        "_initiator": {
+          "type": "script",
+          "url": "https://app.please-open.it/auth/realms/ee1afd72-71a9-49ad-a975-54ed46cc56a3/protocol/openid-connect/auth?response_type=code&client_id=confidential-client&scope=openid%20profile&state=jKkOK821pRF7nd0JQgeYy5dplAsmyYqZxEqR5zDN8RY%3D&redirect_uri=http://localhost:8082/login/oauth2/code/keycloak&nonce=K-wc5H-XPGApOKQaa7UAyO7oxhg0F8lkGKw49ABm0Po",
+          "lineNumber": 18
+        },
+        "_priority": "High",
+        "_resourceType": "script",
+        "cache": {},
+        "connection": "443",
+        "pageref": "page_1",
+        "request": {
+          "method": "GET",
+          "url": "https://app.please-open.it/auth/resources/kbdk5/login/keycloak/js/authChecker.js",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-GB,en;q=0.9"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Host",
+              "value": "app.please-open.it"
+            },
+            {
+              "name": "Origin",
+              "value": "https://app.please-open.it"
+            },
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Sec-Fetch-Dest",
+              "value": "script"
+            },
+            {
+              "name": "Sec-Fetch-Mode",
+              "value": "cors"
+            },
+            {
+              "name": "Sec-Fetch-Site",
+              "value": "same-origin"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Not(A:Brand\";v=\"99\", \"Google Chrome\";v=\"133\", \"Chromium\";v=\"133\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            },
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"macOS\""
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": 621,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Access-Control-Allow-Headers",
+              "value": "DNT,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range"
+            },
+            {
+              "name": "Access-Control-Allow-Methods",
+              "value": "GET, POST, OPTIONS"
+            },
+            {
+              "name": "Access-Control-Expose-Headers",
+              "value": "Content-Length,Content-Range"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=2592000"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "Content-Length",
+              "value": "750"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/javascript"
+            },
+            {
+              "name": "Date",
+              "value": "Tue, 25 Feb 2025 02:29:20 GMT"
+            },
+            {
+              "name": "Referrer-Policy",
+              "value": "no-referrer"
+            },
+            {
+              "name": "Server",
+              "value": "nginx/1.18.0 (Ubuntu)"
+            },
+            {
+              "name": "Strict-Transport-Security",
+              "value": "max-age=31536000; includeSubDomains"
+            },
+            {
+              "name": "X-Content-Type-Options",
+              "value": "nosniff"
+            },
+            {
+              "name": "X-XSS-Protection",
+              "value": "1; mode=block"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 1880,
+            "mimeType": "text/javascript",
+            "compression": 1130
+          },
+          "redirectURL": "",
+          "headersSize": 604,
+          "bodySize": 750,
+          "_transferSize": 1354,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "37.187.150.207",
+        "startedDateTime": "2025-02-25T02:29:19.437Z",
+        "time": 1003.154999925755,
+        "timings": {
+          "blocked": 752.9419998883903,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.11000000000001364,
+          "wait": 249.35000000800187,
+          "receive": 0.7530000293627381,
+          "_blocked_queueing": 3.4099998883903027,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        }
+      },
+      {
+        "_connectionId": "365823",
+        "_initiator": {
+          "type": "parser",
+          "url": "https://app.please-open.it/auth/resources/kbdk5/login/keycloak/css/login.css"
+        },
+        "_priority": "High",
+        "_resourceType": "image",
+        "cache": {},
+        "connection": "443",
+        "pageref": "page_1",
+        "request": {
+          "method": "GET",
+          "url": "https://app.please-open.it/auth/resources/kbdk5/login/keycloak/img/keycloak-bg.png",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Accept",
+              "value": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-GB,en;q=0.9"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Host",
+              "value": "app.please-open.it"
+            },
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Sec-Fetch-Dest",
+              "value": "image"
+            },
+            {
+              "name": "Sec-Fetch-Mode",
+              "value": "no-cors"
+            },
+            {
+              "name": "Sec-Fetch-Site",
+              "value": "same-origin"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Not(A:Brand\";v=\"99\", \"Google Chrome\";v=\"133\", \"Chromium\";v=\"133\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            },
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"macOS\""
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": 650,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Access-Control-Allow-Headers",
+              "value": "DNT,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range"
+            },
+            {
+              "name": "Access-Control-Allow-Methods",
+              "value": "GET, POST, OPTIONS"
+            },
+            {
+              "name": "Access-Control-Expose-Headers",
+              "value": "Content-Length,Content-Range"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=2592000"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Type",
+              "value": "image/png"
+            },
+            {
+              "name": "Date",
+              "value": "Tue, 25 Feb 2025 02:29:20 GMT"
+            },
+            {
+              "name": "Referrer-Policy",
+              "value": "no-referrer"
+            },
+            {
+              "name": "Server",
+              "value": "nginx/1.18.0 (Ubuntu)"
+            },
+            {
+              "name": "Strict-Transport-Security",
+              "value": "max-age=31536000; includeSubDomains"
+            },
+            {
+              "name": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "name": "X-Content-Type-Options",
+              "value": "nosniff"
+            },
+            {
+              "name": "X-XSS-Protection",
+              "value": "1; mode=block"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 81862,
+            "mimeType": "image/png",
+            "compression": -14
+          },
+          "redirectURL": "",
+          "headersSize": 581,
+          "bodySize": 81876,
+          "_transferSize": 82457,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "37.187.150.207",
+        "startedDateTime": "2025-02-25T02:29:20.452Z",
+        "time": 782.4740000069141,
+        "timings": {
+          "blocked": 0.8560000435709954,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.08000000000000002,
+          "wait": 523.6349999727234,
+          "receive": 257.9029999906197,
+          "_blocked_queueing": 0.7090000435709953,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        }
+      },
+      {
+        "_connectionId": "365831",
+        "_initiator": {
+          "type": "parser",
+          "url": "https://app.please-open.it/auth/resources/kbdk5/common/keycloak/node_modules/patternfly/dist/css/patternfly.min.css"
+        },
+        "_priority": "VeryHigh",
+        "_resourceType": "font",
+        "cache": {},
+        "connection": "443",
+        "pageref": "page_1",
+        "request": {
+          "method": "GET",
+          "url": "https://app.please-open.it/auth/resources/kbdk5/common/keycloak/node_modules/patternfly/dist/fonts/OpenSans-Regular-webfont.woff2",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-GB,en;q=0.9"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Host",
+              "value": "app.please-open.it"
+            },
+            {
+              "name": "Origin",
+              "value": "https://app.please-open.it"
+            },
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Sec-Fetch-Dest",
+              "value": "font"
+            },
+            {
+              "name": "Sec-Fetch-Mode",
+              "value": "cors"
+            },
+            {
+              "name": "Sec-Fetch-Site",
+              "value": "same-origin"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Not(A:Brand\";v=\"99\", \"Google Chrome\";v=\"133\", \"Chromium\";v=\"133\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            },
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"macOS\""
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": 668,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Access-Control-Allow-Headers",
+              "value": "DNT,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range"
+            },
+            {
+              "name": "Access-Control-Allow-Methods",
+              "value": "GET, POST, OPTIONS"
+            },
+            {
+              "name": "Access-Control-Expose-Headers",
+              "value": "Content-Length,Content-Range"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=2592000"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/octet-stream"
+            },
+            {
+              "name": "Date",
+              "value": "Tue, 25 Feb 2025 02:29:20 GMT"
+            },
+            {
+              "name": "Referrer-Policy",
+              "value": "no-referrer"
+            },
+            {
+              "name": "Server",
+              "value": "nginx/1.18.0 (Ubuntu)"
+            },
+            {
+              "name": "Strict-Transport-Security",
+              "value": "max-age=31536000; includeSubDomains"
+            },
+            {
+              "name": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "name": "X-Content-Type-Options",
+              "value": "nosniff"
+            },
+            {
+              "name": "X-XSS-Protection",
+              "value": "1; mode=block"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 61980,
+            "mimeType": "application/octet-stream",
+            "compression": 1572
+          },
+          "redirectURL": "",
+          "headersSize": 620,
+          "bodySize": 60408,
+          "_transferSize": 61028,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "37.187.150.207",
+        "startedDateTime": "2025-02-25T02:29:20.457Z",
+        "time": 763.7160000158474,
+        "timings": {
+          "blocked": 0.6930000002384186,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.15000000000000002,
+          "wait": 506.7010000507459,
+          "receive": 256.17199996486306,
+          "_blocked_queueing": 0.5810000002384186,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        }
+      },
+      {
+        "_connectionId": "365796",
+        "_initiator": {
+          "type": "parser",
+          "url": "https://app.please-open.it/auth/resources/kbdk5/common/keycloak/node_modules/patternfly/dist/css/patternfly.min.css"
+        },
+        "_priority": "VeryHigh",
+        "_resourceType": "font",
+        "cache": {},
+        "connection": "443",
+        "pageref": "page_1",
+        "request": {
+          "method": "GET",
+          "url": "https://app.please-open.it/auth/resources/kbdk5/common/keycloak/node_modules/patternfly/dist/fonts/OpenSans-Light-webfont.woff2",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-GB,en;q=0.9"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Host",
+              "value": "app.please-open.it"
+            },
+            {
+              "name": "Origin",
+              "value": "https://app.please-open.it"
+            },
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Sec-Fetch-Dest",
+              "value": "font"
+            },
+            {
+              "name": "Sec-Fetch-Mode",
+              "value": "cors"
+            },
+            {
+              "name": "Sec-Fetch-Site",
+              "value": "same-origin"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Not(A:Brand\";v=\"99\", \"Google Chrome\";v=\"133\", \"Chromium\";v=\"133\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            },
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"macOS\""
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": 666,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Access-Control-Allow-Headers",
+              "value": "DNT,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range"
+            },
+            {
+              "name": "Access-Control-Allow-Methods",
+              "value": "GET, POST, OPTIONS"
+            },
+            {
+              "name": "Access-Control-Expose-Headers",
+              "value": "Content-Length,Content-Range"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=2592000"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/octet-stream"
+            },
+            {
+              "name": "Date",
+              "value": "Tue, 25 Feb 2025 02:29:20 GMT"
+            },
+            {
+              "name": "Referrer-Policy",
+              "value": "no-referrer"
+            },
+            {
+              "name": "Server",
+              "value": "nginx/1.18.0 (Ubuntu)"
+            },
+            {
+              "name": "Strict-Transport-Security",
+              "value": "max-age=31536000; includeSubDomains"
+            },
+            {
+              "name": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "name": "X-Content-Type-Options",
+              "value": "nosniff"
+            },
+            {
+              "name": "X-XSS-Protection",
+              "value": "1; mode=block"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 63180,
+            "mimeType": "application/octet-stream",
+            "compression": 1812
+          },
+          "redirectURL": "",
+          "headersSize": 620,
+          "bodySize": 61368,
+          "_transferSize": 61988,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "37.187.150.207",
+        "startedDateTime": "2025-02-25T02:29:20.457Z",
+        "time": 262.8679999615997,
+        "timings": {
+          "blocked": 0.6819999547079205,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.06600000000000003,
+          "wait": 250.5660000390187,
+          "receive": 11.553999967873096,
+          "_blocked_queueing": 0.46799995470792055,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        }
+      },
+      {
+        "_connectionId": "365815",
+        "_initiator": {
+          "type": "parser",
+          "url": "https://app.please-open.it/auth/resources/kbdk5/common/keycloak/node_modules/patternfly/dist/css/patternfly.min.css"
+        },
+        "_priority": "VeryHigh",
+        "_resourceType": "font",
+        "cache": {},
+        "connection": "443",
+        "pageref": "page_1",
+        "request": {
+          "method": "GET",
+          "url": "https://app.please-open.it/auth/resources/kbdk5/common/keycloak/node_modules/patternfly/dist/fonts/fontawesome-webfont.woff2?v=4.7.0",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-GB,en;q=0.9"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Host",
+              "value": "app.please-open.it"
+            },
+            {
+              "name": "Origin",
+              "value": "https://app.please-open.it"
+            },
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Sec-Fetch-Dest",
+              "value": "font"
+            },
+            {
+              "name": "Sec-Fetch-Mode",
+              "value": "cors"
+            },
+            {
+              "name": "Sec-Fetch-Site",
+              "value": "same-origin"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Not(A:Brand\";v=\"99\", \"Google Chrome\";v=\"133\", \"Chromium\";v=\"133\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            },
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"macOS\""
+            }
+          ],
+          "queryString": [
+            {
+              "name": "v",
+              "value": "4.7.0"
+            }
+          ],
+          "cookies": [],
+          "headersSize": 671,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Access-Control-Allow-Headers",
+              "value": "DNT,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range"
+            },
+            {
+              "name": "Access-Control-Allow-Methods",
+              "value": "GET, POST, OPTIONS"
+            },
+            {
+              "name": "Access-Control-Expose-Headers",
+              "value": "Content-Length,Content-Range"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=2592000"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/octet-stream"
+            },
+            {
+              "name": "Date",
+              "value": "Tue, 25 Feb 2025 02:29:20 GMT"
+            },
+            {
+              "name": "Referrer-Policy",
+              "value": "no-referrer"
+            },
+            {
+              "name": "Server",
+              "value": "nginx/1.18.0 (Ubuntu)"
+            },
+            {
+              "name": "Strict-Transport-Security",
+              "value": "max-age=31536000; includeSubDomains"
+            },
+            {
+              "name": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "name": "X-Content-Type-Options",
+              "value": "nosniff"
+            },
+            {
+              "name": "X-XSS-Protection",
+              "value": "1; mode=block"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 77160,
+            "mimeType": "application/octet-stream",
+            "compression": -25
+          },
+          "redirectURL": "",
+          "headersSize": 620,
+          "bodySize": 77185,
+          "_transferSize": 77805,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "37.187.150.207",
+        "startedDateTime": "2025-02-25T02:29:20.457Z",
+        "time": 518.8290000660345,
+        "timings": {
+          "blocked": 0.6989999916031957,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.06999999999999998,
+          "wait": 254.41300000190733,
+          "receive": 263.64700007252395,
+          "_blocked_queueing": 0.5339999916031957,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        }
+      },
+      {
+        "_connectionId": "365823",
+        "_initiator": {
+          "type": "other"
+        },
+        "_priority": "High",
+        "_resourceType": "other",
+        "cache": {},
+        "connection": "443",
+        "pageref": "page_1",
+        "request": {
+          "method": "GET",
+          "url": "https://app.please-open.it/auth/resources/kbdk5/login/keycloak/img/favicon.ico",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Accept",
+              "value": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-GB,en;q=0.9"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Host",
+              "value": "app.please-open.it"
+            },
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Sec-Fetch-Dest",
+              "value": "image"
+            },
+            {
+              "name": "Sec-Fetch-Mode",
+              "value": "no-cors"
+            },
+            {
+              "name": "Sec-Fetch-Site",
+              "value": "same-origin"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Not(A:Brand\";v=\"99\", \"Google Chrome\";v=\"133\", \"Chromium\";v=\"133\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            },
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"macOS\""
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": 646,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Access-Control-Allow-Headers",
+              "value": "DNT,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range"
+            },
+            {
+              "name": "Access-Control-Allow-Methods",
+              "value": "GET, POST, OPTIONS"
+            },
+            {
+              "name": "Access-Control-Expose-Headers",
+              "value": "Content-Length,Content-Range"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=2592000"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "Content-Length",
+              "value": "650"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/octet-stream"
+            },
+            {
+              "name": "Date",
+              "value": "Tue, 25 Feb 2025 02:29:21 GMT"
+            },
+            {
+              "name": "Referrer-Policy",
+              "value": "no-referrer"
+            },
+            {
+              "name": "Server",
+              "value": "nginx/1.18.0 (Ubuntu)"
+            },
+            {
+              "name": "Strict-Transport-Security",
+              "value": "max-age=31536000; includeSubDomains"
+            },
+            {
+              "name": "X-Content-Type-Options",
+              "value": "nosniff"
+            },
+            {
+              "name": "X-XSS-Protection",
+              "value": "1; mode=block"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 627,
+            "mimeType": "application/octet-stream",
+            "compression": -23
+          },
+          "redirectURL": "",
+          "headersSize": 613,
+          "bodySize": 650,
+          "_transferSize": 1263,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "37.187.150.207",
+        "startedDateTime": "2025-02-25T02:29:21.237Z",
+        "time": 253.67000000551343,
+        "timings": {
+          "blocked": 2.3089999872148037,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.137,
+          "wait": 250.57899999639392,
+          "receive": 0.645000021904707,
+          "_blocked_queueing": 2.0469999872148037,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        }
+      }
+    ]
+  }
+}
