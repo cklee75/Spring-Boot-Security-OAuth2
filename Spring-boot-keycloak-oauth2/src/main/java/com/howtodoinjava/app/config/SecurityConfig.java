@@ -45,7 +45,10 @@ public class SecurityConfig {
                 .invalidateHttpSession(true)
                 .clearAuthentication(true)
                 .deleteCookies("JSESSIONID"))
-            .headers(headers -> headers.cacheControl(cache -> cache.disable()));
+            .headers(headers -> headers.cacheControl(cache -> cache.disable()))
+            .oidcLogout(oidcLogout -> oidcLogout
+                .backChannel(withDefaults()))
+        ;
 
        return  http.build();
     }
