@@ -13,6 +13,14 @@ import lombok.Setter;
 @NoArgsConstructor
 public class Employee {
 
+  public Employee(String name, String phone, String email, String position, String bio) {
+    this.name = name;
+    this.phone = phone;
+    this.email = email;
+    this.position = position;
+    this.bio = bio;
+  }
+
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
   private Long id;
